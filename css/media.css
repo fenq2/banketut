@@ -1,0 +1,504 @@
+@media screen and (max-width: 1730px) {
+    .hero {
+        padding: 50px;
+    }
+
+    .menu {
+        padding-right: 127px;
+    }
+
+    .menu__link:not(:last-child) {
+        margin-right: 50px;
+    }
+
+    .events-info {
+        margin-left: 122px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .menu {
+        padding-right: 100px;
+    }
+
+    .info__title {
+        font-size: 80px;
+        padding-bottom: 25px;
+    }
+
+    .info__desc {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .buttons__mobile {
+        bottom: 50px;
+    }
+
+    .events {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .events-info {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hero {
+        padding: 25px;
+    }
+    .menu__link {
+        font-size: 25px;
+    }
+
+    .menu__link:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .sandwich__open-btn {
+        top: 35px;
+    }
+
+    .basket {
+        top: 110px;
+    }
+
+    .info {
+        margin-bottom: 66px;
+    }
+
+    .buttons__mobile {
+        font-size: 41px;
+        padding: 0 16px;
+    }
+
+    .events {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .events-info {
+        max-width: 450px;
+    }
+
+    .events-info__title {
+        font-size: 35px;
+    }
+
+    .events-info__desc {
+        font-size: 20px;
+    }
+
+    .events-info__button {
+        font-size: 30px;
+        padding: 10px 40px;
+    }
+
+    .reviews-info {
+        margin-left: 0;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .buttons {
+        justify-content: center;
+    }
+
+    .buttons__menu {
+        margin-right: 40px;
+    }
+
+    .buttons__portfolio {
+        margin-right: 30px;
+    }
+
+    .buttons__mobile {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .menu {
+        display: none;
+    }
+
+    .sandwich__line:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .main-menu {
+        display: block;
+    }
+
+    .events-info {
+        max-width: 350px;
+        margin-left: 30px;
+    }
+
+    .events-info__title {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .events-info__desc {
+        font-size: 15px;
+    }
+
+    .events-info__button {
+        font-size: 25px;
+        padding: 10px 30px;
+    }
+
+    .callback-form__name {
+        font-size: 24px;
+        padding: 24px 15px 15px 15px;
+    }
+
+    .callback-form__tel {
+        font-size: 32px;
+        padding: 21px 15px 7px 15px;
+    }
+
+    .callback-form__button {
+        padding: 10px 61px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .info__title {
+        font-size: 60px;
+        padding-bottom: 20px;
+    }
+
+    .info__desc {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 59px;
+    }
+
+    .sandwich__line:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .basket {
+        top: 100px;
+    }
+
+    .info {
+        margin-bottom: 66px;
+    }
+
+    .info__title {
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
+
+    .info__desc {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .buttons__menu {
+        font-size: 40px;
+        padding: 10px 51px;
+        margin-right: 50px;
+    }
+
+    .buttons__portfolio {
+        margin-right: 0;
+    }
+
+    .buttons__portfolio-decor {
+        width: 67px;
+        height: 67px;
+    }
+
+    .buttons__portfolio-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .buttons__portfolio-title {
+        padding-left: 15px;
+    }
+
+    .events__wrapper {
+        flex-direction: column;
+    }
+
+    .events-info {
+        padding-top: 20px;
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .events-info__title {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .events-info__desc {
+        text-align: center;
+    }
+
+    .events-info__button {
+        margin: auto;
+    }
+
+    .callback {
+        padding: 50px 0 50px 0;
+    }
+
+    .callback__wrap {
+        flex-direction: column;
+    }
+
+    .callback-info {
+        margin-right: 0;
+        padding-bottom: 30px;
+    }
+
+    .reviews-info {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .footer__wrap {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sandwich__content {
+        width: 100%;
+        right: -100%;
+    }
+
+    .sandwich__content--opened {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .info__title {
+        font-size: 45px;
+        padding-bottom: 15px;
+    }
+
+    .info__desc {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .buttons__menu {
+        font-size: 30px;
+    }
+
+    .buttons__portfolio {
+        font-size: 20px;
+    }
+
+    .buttons__portfolio-decor {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .hero {
+        padding: 10px;
+    }
+
+    .info {
+        margin-bottom: 40px;
+    }
+
+    .info__title {
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+
+    .info__desc {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .buttons__menu {
+        margin-right: 20px;
+        font-size: 25px;
+    }
+
+    .buttons__portfolio {
+        font-size: 17px;
+    }
+
+    .buttons__portfolio-title {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .logo {
+        font-size: 49px;
+    }
+
+    .hero__content {
+        padding-top: 45px;
+    }
+
+    .sandwich__open-btn {
+        top: 18px;
+        right: 30px;
+    }
+
+    .basket {
+        right: 30px;
+        width: 40px;
+        top: 60px;
+    }
+
+    .sandwich__line:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .info__title {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .info__desc {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .buttons__mobile {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .buttons__menu {
+        margin-bottom: 20px;
+    }
+
+    .events__name {
+        left: 15px;
+        bottom: 15px;
+        font-size: 20px;
+    }
+
+    .reviews__name {
+        right: 15px;
+        bottom: 15px;
+        font-size: 15px;
+        line-height: 20px;
+        max-width: 150px;
+    }
+
+    .social__icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .social__link:not(:last-child) {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sandwich__close-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .sandwich-menu__link {
+        font-size: 25px;
+    }
+
+    .main-menu__link {
+        font-size: 25px;
+    }
+
+    .sandwich__line {
+        width: 35px;
+        height: 4px;
+    }
+
+    .sandwich__line:not(:last-child) {
+        margin-bottom: 7px;
+    }
+
+    .sandwich__open-btn {
+        top: 20px;
+        right: 20px;
+    }
+
+    .basket {
+        right: 20px;
+    }
+
+    .info__title {
+        font-size: 23px;
+        padding-bottom: 15px;
+    }
+
+    .info__desc {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .buttons__mobile {
+        font-size: 25px;
+    }
+
+    .events-info__title {
+        font-size: 25px;
+    }
+
+    .callback-info {
+        padding-bottom: 15px;
+    }
+
+    .callback-info__title {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+    .callback-info__desc {
+        font-size: 25px;
+    }
+
+    .callback-form__name,
+    .callback-form__tel {
+        width: 250px;
+        margin-bottom: 15px;
+    }
+
+    .callback-form__name {
+        font-size: 20px;
+    }
+
+    .callback-form__tel {
+        font-size: 25px;
+    }
+
+    .callback-form__button {
+        padding: 10px 45px;
+        margin: auto;
+        font-size: 30px;
+    }
+
+    .reviews-info__title {
+        font-size: 24px;
+    }
+}
